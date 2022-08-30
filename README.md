@@ -22,6 +22,22 @@ He is said to have planted these beans in the Hill ranges of Chikmaglur, Karnata
 
 You can read more about him [here (but would say, citations are needed for this article)](https://www.coffees.gr/baba-budan-story/)
 
+## Installation
+
+Right now, the build process works only on \*nix styled OS, because of chmod and shebang.
+
+### Install the dependencies.
+
+`npm i && npm run build`
+
+### Link the build and get access to `budan` as a cli command.
+
+`npm link`
+
+### Test
+
+`budan`
+
 ## Roadmap <sub>(Or feature creep, depends on how you look at it) </sub>
 
 - [ ] Simple CLI script that I can use to capture my brewing parameters and notes off from my offline diary and store it sqlite.
