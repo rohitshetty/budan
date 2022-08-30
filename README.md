@@ -28,7 +28,7 @@ Right now, the build process works only on \*nix styled OS, because of chmod and
 
 ### Install the dependencies.
 
-`npm i && npm run build`
+`npm i && npm run brew`
 
 ### Link the build and get access to `budan` as a cli command.
 

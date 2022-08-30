@@ -10,7 +10,7 @@
     "tsc": "tsc",
     "lint": "eslint '**/*.{js,ts}' --fix",
     "prettier": "prettier --write .", 
-    "build": "npm run tsc && npm run chmod",
+    "brew": "npm run tsc && npm run chmod",
     "chmod":  "chmod u+x ./bin/index.js"
   },
   "repository": {
